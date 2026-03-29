@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "haddadnlpkit"
+version = "0.1.0"
+description = "Lightweight NLP utilities for Colab-safe demos"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Omar Haddad"}
+]
